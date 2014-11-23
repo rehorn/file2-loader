@@ -1,0 +1,30 @@
+{
+    "name": "file2-loader",
+    "version": "0.1.0",
+    "author": {
+        "name": "rehornchen@tencent.com"
+    },
+    "description": "a copy of webpack file loader without file emit",
+    "dependencies": {
+        "loader-utils": "~0.2.5"
+    },
+    "devDependencies": {
+        "should": "~4.0.4",
+        "mocha": "~1.21.3"
+    },
+    "scripts": {
+        "test": "mocha -R spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rehorn/file2-loader"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+    }],
+    "bugs": {
+        "url": "https://github.com/rehorn/file2-loader/issues"
+    },
+    "homepage": "https://github.com/rehorn/file2-loader"
+}
